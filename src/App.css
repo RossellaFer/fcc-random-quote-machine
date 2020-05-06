@@ -7,4 +7,19 @@
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+  background-color: #fdc830;
+}
+
+.buttons_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50vw;
+  margin: 2em auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .buttons_container {
+    width: 90vw;
+  }
 }

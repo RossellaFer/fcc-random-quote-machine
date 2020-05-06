@@ -1,0 +1,13 @@
+#new-quote {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 1em 2em;
+  cursor: pointer;
+  background-color: #fff;
+  margin-right: 5px;
+}
+
+#new-quote:hover {
+  background-color: #888888;
+  color: #fff;
+}
